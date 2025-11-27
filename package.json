@@ -1,16 +1,16 @@
 {
-  "name": "snov-group",
+  "name": "ptz-diesel",
   "version": "1.0.0",
-  "description": "Тема WordPress: Snov Group. Сборка Sass -> CSS.",
+  "description": "Тема WordPress: ptz-diesel.ru Сборка Sass -> CSS.",
   "author": "averkkin",
   "license": "GPL-2.0-or-later",
   "scripts": {
-    "sass": "sass assets/styles/main.scss assets/styles/style.css --no-source-map",
-    "sass:watch": "sass --watch assets/styles/main.scss assets/styles/style.css"
+    "sass": "sass src/styles/main.scss src/styles/style.css --no-source-map",
+    "sass:watch": "sass --watch src/styles/main.scss src/styles/style.css"
   },
   "devDependencies": {
     "rtlcss": "^3.5.0",
-    "sass": "^1.69.0"
+    "sass": "^1.94.2"
   },
   "dependencies": {
     "swiper": "^12.0.3"
