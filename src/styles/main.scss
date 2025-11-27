@@ -6,3 +6,8 @@
 @use './variables.scss';
 @use './utils.scss';
 @use './globals.scss';
+
+//components
+@use '../components/Header/header.scss';
+@use '../components/Button/button.scss';
+@use '../components/BurgerMenu/burger-menu.scss';

@@ -1,0 +1,41 @@
+@use '../../styles/helpers' as *;
+
+.btn {
+  @include fluid-text(20, 12);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: fluid(28, 16);
+  background: var(--linear-red-primary);
+  border-radius: var(--border-radius-m);
+  height: fluid(113, 92);
+  width: 100%;
+  color: var(--color-white);
+  font-weight: 700;
+  transition: var(--transition-duration);
+
+  @include mobile {
+    border-radius: var(--border-radius-mobile-m);
+  }
+
+  &--small {
+    @include fluid-text(20, 14);
+    height: fluid(48, 38);
+    font-weight: 400;
+    border-radius: var(--border-radius-s);
+
+    @include mobile {
+      border-radius: var(--border-radius-mobile-s);
+    }
+
+  }
+
+  &--white {
+    background: var(--color-white);
+    color: var(--color-black-85);
+
+    @include hover {
+      background: var(--color-black-10);
+    }
+  }
+}
